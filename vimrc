@@ -15,6 +15,8 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,6 +47,7 @@ let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#tabline#enabled=1
 
 set colorcolumn=80
+set bs=2
 set ru
 set number
 set guifont=Monaco:h14
