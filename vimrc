@@ -36,7 +36,7 @@ filetype plugin indent on    " required
 filetype on
 syntax on
 
-set rtp+=/usr/local/opt/fzf
+set rtp+=/home/pblouw/.fzf
 set encoding=utf-8
 set termguicolors     " enable true colors support
 colorscheme flatland

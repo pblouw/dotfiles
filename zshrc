@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$HOME/miniconda/bin:$PATH"
+export PATH="$HOME/miniconda3/bin:$PATH"
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="af-magic"
@@ -54,6 +54,9 @@ ZSH_THEME="af-magic"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export FZF_BASE=~/.fzf
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -62,6 +65,7 @@ ZSH_THEME="af-magic"
 plugins=(
   colored-man
   colorize
+  fzf
 )
 
 source $ZSH/oh-my-zsh.sh
