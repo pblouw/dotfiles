@@ -55,3 +55,5 @@ set guifont=Monaco:h14
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 inoremap ii <Esc>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-L> <C-W><C-L>
