@@ -57,3 +57,5 @@ nnoremap <S-Tab> :bprevious<CR>
 inoremap ii <Esc>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>
+
+let g:ale_linters= {'python': ['flake8']}
