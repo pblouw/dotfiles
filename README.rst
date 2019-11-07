@@ -15,7 +15,11 @@ Now clone the Vim repo and do the following from within the repo:
 .. code-block:: batch
 
   cd src
-  ./configure --enable-pythoninterp --enable-python3interp --enable-fail-if-missing
+  ./configure --enable-pythoninterp \
+              --enable-python3interp \
+              --enable-fail-if-missing \
+              --with-python3-config-dir=/Users/pblouw/miniconda3/lib/python3.7/config-3.7m-darwin
+
   make distclean  # if you build Vim before
   make
   sudo make install
@@ -29,3 +33,12 @@ order:
 .. code-block:: batch
 
   /usr/bin/python ~/.vim/bundle/Youcompleteme/install.py
+
+To set git to store access tokens etc. on a new machine, do the following:
+
+.. code-block:: batch
+
+  git config --global credential.helper osxkeychain  # or whatever on Linux
+  git config --global user.name "Name"
+  git config --global user.email "you@mail"
+  git config --global core.editor "vim"
