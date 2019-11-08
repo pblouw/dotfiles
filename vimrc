@@ -49,9 +49,12 @@ let g:airline_powerline_fonts = 1
 
 set colorcolumn=80
 set bs=2
+set ts=4 sts=4 sw=4 expandtab
+set listchars=tab:▸\ ,eol:~
 set ru
 set number
 set guifont=Monaco:h14
+highlight NonText guifg=#4a4a59
 
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
