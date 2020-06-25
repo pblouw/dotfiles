@@ -6,5 +6,6 @@ brew install cmake
 brew install zsh
 brew install zsh-syntax-highlighting
 brew install tmux
+brew install bat
 
 chsh -s /bin/zsh

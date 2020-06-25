@@ -3,6 +3,7 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.fzf
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -14,9 +15,9 @@ Plugin 'tpope/vim-commentary'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'davidhalter/jedi-vim'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'scrooloose/nerdtree'
+Plugin 'junegunn/fzf.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,19 +42,19 @@ set encoding=utf-8
 set termguicolors     " enable true colors support
 colorscheme flatland
 
-let g:airline_theme='deus'
+let g:airline_theme='murmur'
 let g:airline#extensions#hunks#enabled=0
 let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#tabline#enabled=1
 let g:airline_powerline_fonts = 1
 
+
 set colorcolumn=80
+set textwidth=79
 set bs=2
 set ts=4 sts=4 sw=4 expandtab
-set listchars=tab:▸\ ,eol:~
 set ru
 set number
-set guifont=Monaco:h14
 highlight NonText guifg=#4a4a59
 
 nnoremap <Tab> :bnext<CR>
@@ -63,3 +64,8 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>
 
 let g:ale_linters= {'python': ['flake8']}
+
+" Fix tex indentation behavior
+let g:tex_indent_items=0
+let g:tex_indent_and=0
+let g:tex_indent_brace=0

@@ -42,3 +42,23 @@ To set git to store access tokens etc. on a new machine, do the following:
   git config --global user.name "Name"
   git config --global user.email "you@mail"
   git config --global core.editor "vim"
+
+To install powerline fonts
+
+.. code-block:: batch
+
+  # clone
+  git clone https://github.com/powerline/fonts.git --depth=1
+  # install
+  cd fonts
+  ./install.sh
+  # clean-up a bit
+  cd ..
+  rm -rf fonts
+
+To get airline to work in Vim, be sure to pick a Powerline Font after installing
+powerline.
+
+To enable directory searchs with FZF: Open the iterm2 preference settings, go
+to Profiles -> Keys. In the bottom right of the window, there are different
+buttons to choose the behaviour of Option key. Just choose Esc+. 
