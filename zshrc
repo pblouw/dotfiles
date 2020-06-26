@@ -22,9 +22,9 @@ export FZF_BASE=~/.fzf
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(
-  colored-man
-  colorize
   fzf
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
