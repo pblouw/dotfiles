@@ -25,9 +25,6 @@
 [submodule "fzf"]
 	path = fzf
 	url = https://github.com/junegunn/fzf
-[submodule "vim/bundle/ale"]
-	path = vim/bundle/ale
-	url = https://github.com/dense-analysis/ale
 [submodule "vim/bundle/vim/fzf.vim"]
 	path = vim/bundle/vim/fzf.vim
 	url = https://github.com/junegunn/fzf.vim

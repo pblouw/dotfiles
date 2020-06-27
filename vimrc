@@ -10,12 +10,10 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'dense-analysis/ale'
 Plugin 'tpope/vim-commentary'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-" Plugin 'davidhalter/jedi-vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'junegunn/fzf.vim'
 
@@ -62,8 +60,8 @@ nnoremap <S-Tab> :bprevious<CR>
 inoremap ii <Esc>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>
-
-let g:ale_linters= {'python': ['flake8']}
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
 
 " Fix tex indentation behavior
 let g:tex_indent_items=0
