@@ -62,3 +62,9 @@ powerline.
 To enable directory searchs with FZF: Open the iterm2 preference settings, go
 to Profiles -> Keys. In the bottom right of the window, there are different
 buttons to choose the behaviour of Option key. Just choose Esc+. 
+
+To install Zsh plugins:
+
+.. code-block:: batch
+ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
