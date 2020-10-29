@@ -28,3 +28,9 @@
 [submodule "vim/bundle/fzf.vim"]
 	path = vim/bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
+[submodule "vim/bundle/completor.vim"]
+	path = vim/bundle/completor.vim
+	url = https://github.com/maralla/completor.vim
+[submodule "vim/bundle/black"]
+	path = vim/bundle/black
+	url = https://github.com/psf/black
