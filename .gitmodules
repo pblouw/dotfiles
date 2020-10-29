@@ -25,6 +25,6 @@
 [submodule "fzf"]
 	path = fzf
 	url = https://github.com/junegunn/fzf
-[submodule "vim/bundle/vim/fzf.vim"]
-	path = vim/bundle/vim/fzf.vim
+[submodule "vim/bundle/fzf.vim"]
+	path = vim/bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
