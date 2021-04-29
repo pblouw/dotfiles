@@ -5,20 +5,10 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="af-magic"
 
-
-# CASE_SENSITIVE="true"
-# DISABLE_AUTO_UPDATE="true"
-# DISABLE_LS_COLORS="true"
-# ENABLE_CORRECTION="true"
-# COMPLETION_WAITING_DOTS="true"
-
 # FZF setup
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export FZF_BASE=~/.fzf
-# export FZF_COMPLETION_TRIGGER=''
-# bindkey '^T' fzf-completion
-# bindkey '^I' $fzf_default_completion
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(
@@ -28,18 +18,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-
-
-# User configuration
-# export LANG=en_US.UTF-8
-# export ARCHFLAGS="-arch x86_64"
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-
-# __git_files () { 
-#     _wanted files expl 'local files' _files     
-# }
 
 # Conda Setup
 # !! Contents within this block are managed by 'conda init' !!
